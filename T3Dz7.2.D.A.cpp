@@ -2,9 +2,9 @@
 
 #include <iostream>
 
-//#define SUB(a, b) ((a) - (b))
+#define SUB(a, b) ((a) - (b))
 
-#ifndef SUB(a,b)
+#ifndef SUB
 #error SUB not defined
 #endif
 
